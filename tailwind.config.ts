@@ -18,7 +18,19 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				montserrat: ['Montserrat', 'system-ui', 'sans-serif'],
+				'open-sans': ['Open Sans', 'system-ui', 'sans-serif']
+			},
 			colors: {
+				// Семейные цвета стоматологии
+				'dental-blue': '#3B82F6',
+				'dental-green': '#10B981',
+				'dental-beige': '#F59E0B',
+				'dental-gray': '#E5E7EB',
+				'dental-accent': '#8B5A2B',
+				
+				// Системные цвета
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
